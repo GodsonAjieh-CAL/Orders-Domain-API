@@ -1,0 +1,6 @@
+@ETF_Orders_Domain_API_HostAddress = http://localhost:5051
+
+GET {{ETF_Orders_Domain_API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
