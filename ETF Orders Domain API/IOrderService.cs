@@ -4,7 +4,7 @@
     {
         public Task<string> GetOrders(string name);
 
-        public Task<string> AddOrders(int id, string name);
+        public Task<string> AddOrders(string name);
         public Task<string> UpdateOrders(int id, string name);
         public Task<string> DeleteOrders(int id);
 

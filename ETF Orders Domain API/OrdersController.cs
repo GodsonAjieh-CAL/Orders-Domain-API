@@ -14,7 +14,7 @@ namespace ETF_Orders_Domain_API
         }
 
         [HttpPost]
-        public async Task<IActionResult> AddOrders(int id, string name)
+        public async Task<IActionResult> AddOrders(string name)
         {
             // Implementation for adding orders
             return NoContent();
